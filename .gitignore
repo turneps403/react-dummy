@@ -1,3 +1,5 @@
+public/scripts/bundle.*
+
 # Logs
 logs
 *.log

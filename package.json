@@ -17,7 +17,7 @@
     "web": "live-server public/",
     "build": "webpack --mode development --progress",
     "build-watch": "webpack --mode production --progress --watch",
-    "build-safe": "INLINE_RUNTIME_CHUNK=false npm run build"
+    "build-safe": "webpack --mode development --progress --devtool cheap-module-source-map"
   },
   "dependencies": {
     "react": "^18.2.0",
