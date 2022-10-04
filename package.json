@@ -16,10 +16,8 @@
   "scripts": {
     "web": "live-server public/",
     "build": "webpack --mode development --progress",
-    "watch": "webpack --mode production --progress --watch",
-    "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
-    "start": "webpack-dev-server --open",
-    "babel": "node ./node_modules/@babel/cli/bin/babel.js src/app.js --out-file=public/scripts/app.js"
+    "build-watch": "webpack --mode production --progress --watch",
+    "build-safe": "INLINE_RUNTIME_CHUNK=false npm run build"
   },
   "dependencies": {
     "react": "^18.2.0",
