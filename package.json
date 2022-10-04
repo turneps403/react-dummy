@@ -1,0 +1,28 @@
+{
+  "name": "test-r",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.3",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^8.2.5",
+    "live-server": "^1.2.2",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "scripts": {
+    "web": "live-server public/",
+    "build": "webpack --mode development --progress",
+    "watch": "webpack --mode production --progress --watch",
+    "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
+    "start": "webpack-dev-server --open",
+    "babel": "node ./node_modules/@babel/cli/bin/babel.js src/app.js --out-file=public/scripts/app.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
