@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from 'react';
 import { createRoot } from 'react-dom/client';
 
@@ -21,5 +22,5 @@ function App() {
     );
 }
 
-const root = createRoot(document.getElementById('app'));
+const root = createRoot(document.getElementById('root'));
 root.render(<App />);
