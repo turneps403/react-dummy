@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { createRoot } from 'react-dom/client';
 
-function Counter() {
+const Counter = () => {
   const [count, setCount] = useState(0);
   return (
     <>
@@ -14,13 +14,7 @@ function Counter() {
   );
 }
 
-function App() {
-    return (
-        <>
-            <Counter/>
-        </>
-    );
-}
+const App = () => <><Counter/></>;
 
 const root = createRoot(document.getElementById('root'));
 root.render(<App />);
