@@ -19,7 +19,23 @@ module.exports = {
                         ["@babel/preset-react", {"runtime": "automatic"}]
                     ]
                 }
-            }
+            },
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader'],
+            },
         ]
+    },
+    devServer: {
+        static: {
+            directory: path.join(__dirname, 'public'),
+        },
+        client: {
+            progress: true,
+        },
+        compress: false,
+        port: 3000,
+        hot: true,
+        open: true,
     }
 }
