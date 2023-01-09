@@ -1,4 +1,5 @@
 public/scripts/bundle.*
+.vstags
 
 # Logs
 logs
