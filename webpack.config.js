@@ -23,7 +23,7 @@ module.exports = {
             },
         ]
     },
-    devtool: 'cheap-module-source-map',
+    devtool: 'eval-source-map',
     devServer: {
         static: {
             directory: path.join(__dirname, 'public'),
