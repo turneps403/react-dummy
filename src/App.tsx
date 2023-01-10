@@ -3,7 +3,7 @@ import { Counter } from './components/Counter'
 
 export const App = () => (
     <>
-        <h1>Hello world!</h1>
+        <h1>Counter example:</h1>
         <Counter/>
     </>
 );
