@@ -3,14 +3,13 @@
 	"tasks": [
 		{
 			"type": "npm",
-			"script": "build",
+			"script": "build-chrome-ext",
 			"group": {
 				"kind": "build",
 				"isDefault": true
 			},
 			"problemMatcher": [],
-			"label": "npm: build",
-			"detail": "webpack --mode development --progress",
+			"label": "npm: build for chrome",
 			"presentation": {
 				"reveal": "silent",
 				"revealProblems": "onProblem",
