@@ -1,6 +1,7 @@
 # react-dummy
-Just dummy react 18 project
+This repo can be useful in the case of creating Chrome extension on your knees.
 
-## Objective
-Genuis people have the same thoughts.
-- https://github.com/yakkomajuri/react-from-scratch
+It's based on React version 18.
+
+## See also
+- gihub repo [react-from-scratch](https://github.com/yakkomajuri/react-from-scratch)
