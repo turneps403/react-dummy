@@ -1,4 +1,6 @@
 public/scripts/bundle.*
+.vstags
+*.d.ts
 
 # Logs
 logs

@@ -6,16 +6,22 @@
     "action": {
         "default_popup": "index.html",
         "default_icon": {
-            "16": "/images/get_started16.png",
-            "32": "/images/get_started32.png",
-            "48": "/images/get_started48.png",
-            "128": "/images/get_started128.png"
+            "16": "/images/fridge16.png",
+            "24": "/images/fridge24.png",
+            "32": "/images/fridge32.png",
+            "64": "/images/fridge64.png",
+            "128": "/images/fridge128.png",
+            "256": "/images/fridge256.png",
+            "512": "/images/fridge512.png"
         }
     },
     "icons": {
-        "16": "/images/get_started16.png",
-        "32": "/images/get_started32.png",
-        "48": "/images/get_started48.png",
-        "128": "/images/get_started128.png"
+        "16": "/images/fridge16.png",
+        "24": "/images/fridge24.png",
+        "32": "/images/fridge32.png",
+        "64": "/images/fridge64.png",
+        "128": "/images/fridge128.png",
+        "256": "/images/fridge256.png",
+        "512": "/images/fridge512.png"
     }
   }
