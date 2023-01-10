@@ -9,6 +9,7 @@ export const Counter = () => {
         <button onClick={() => setCount(count + 1)}>
             Increment
         </button>
+        <br/><br/>
         </>
     );
 }
