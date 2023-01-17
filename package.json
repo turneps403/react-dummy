@@ -23,7 +23,8 @@
     "web": "live-server public/",
     "build": "webpack --mode development --progress",
     "build-prod": "webpack --mode production --progress --watch",
-    "build-chrome-ext": "webpack --mode development --progress --devtool cheap-module-source-map"
+    "build-chrome-ext": "webpack --mode development --progress --devtool cheap-module-source-map",
+    "dev-server": "webpack-dev-server --devtool cheap-module-source-map"
   },
   "dependencies": {
     "@types/styled-components": "^5.1.26",
