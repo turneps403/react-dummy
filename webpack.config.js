@@ -4,7 +4,7 @@ module.exports = {
     mode: "development",
     entry: "./src/index.tsx",
     output:{
-        path: path.join(__dirname, 'public', 'scripts'),
+        path: path.join(__dirname, 'public'),
         filename: 'bundle.js'
     },
     resolve: {
@@ -28,10 +28,6 @@ module.exports = {
         static: {
             directory: path.join(__dirname, 'public'),
         },
-        client: {
-            progress: true,
-        },
-        compress: false,
         port: 3000,
         hot: true,
         open: true
